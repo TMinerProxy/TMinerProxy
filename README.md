@@ -1,4 +1,7 @@
-
+<h1 align="center">
+  <br>
+  <img src="https://raw.githubusercontent.com/TMinerProxy/TMinerProxy/main/images/logo.jpg" width="350"/>
+</h1>
 
 <h4 align="center">基于GoLang的高性能多线程ETH/ETC矿池转发中继代理工具</h4>
 
@@ -7,7 +10,7 @@
   <a href="https://jq.qq.com/?_wv=1027&k=6zAGNMtI">QQ群聊</a>
 </p>
 
-![Screenshot](https://raw.githubusercontent.com/TMinerProxy/TMinerProxy/main/images/web_1.png)
+
 
 ## :sparkles: 特性
 
