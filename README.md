@@ -46,7 +46,7 @@ bash <(curl -s -L https://cdn.jsdelivr.net/gh/TMinerProxy/TMinerProxy@main/scrip
 ```
 ```shell
 # 再次SSH链接可以使用下述指令查看输出
-screen -r x_miner_proxy
+screen -r t_miner_proxy
 ```
 
 ## :scroll: 开发抽水

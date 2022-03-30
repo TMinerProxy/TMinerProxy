@@ -1,8 +1,8 @@
 #### ETHASH-1.2.0版本已发布，此次版本为大版本更新，强烈推荐更新！
 ----
 #### 当前版本：{BUILD_VERSION}({BUILD_DATE})
-#### 最新版本：[V1.2.0_ETHASH(2022-03-25)](https://github.com/XMinerProxy/XMinerProxy/releases/tag/1.2.0) - [[历史更新日志]](https://github.com/XMinerProxy/XMinerProxy/releases)
-#### 联系我们：[Telegram讨论群组（欢迎向我们提出建议）](https://t.me/XMinerProxy)、[GitHub](https://github.com/XMinerProxy/XMinerProxy)
+#### 最新版本：[V1.2.0_ETHASH(2022-03-25)](https://github.com/TMinerProxy/TMinerProxy/releases/tag/1.2.0) - [[历史更新日志]](https://github.com/TMinerProxy/TMinerProxy/releases)
+#### 联系我们：[Telegram讨论群组（欢迎向我们提出建议）](https://t.me/+qmpT3hiuaPA4NTg9)、[GitHub](https://github.com/TMinerProxy/TMinerProxy)
 #### V1.2.0更新内容：此次版本为大版本更新，强烈推荐更新！
 - 新增新款专业矿机兼容
 - 针对部分专业矿机进行优化
