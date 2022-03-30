@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/TMinerProxy/TMinerProxy/main/images/logo.png" width="350"/>
+  <img src="https://raw.githubusercontent.com/TMinerProxy/TMinerProxy/main/images/logo.jpg" width="350"/>
 </h1>
 
 <h4 align="center">基于GoLang的高性能多线程ETH/ETC矿池转发中继代理工具</h4>
