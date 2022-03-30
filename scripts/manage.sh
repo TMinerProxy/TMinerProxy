@@ -28,8 +28,8 @@ install(){
     wget https://raw.githubusercontent.com/TMinerProxy/TMinerProxy/main/others/server.key -O /root/t_miner_proxy/server.key
     wget https://raw.githubusercontent.com/TMinerProxy/TMinerProxy/main/others/server.pem -O /root/t_miner_proxy/server.pem
     
-    wget https://github.com/TMinerProxy/TMinerProxy/releases/download/1.2.0/TMinerProxy_v1.2.0_linux_amd64.tar.gz -O /root/TMinerProxy_v1.2.0_linux_amd64.tar.gz
-    tar -zxvf /root/TMinerProxy_v1.2.0_linux_amd64.tar.gz -C /root/t_miner_proxy
+    wget https://github.com/TMinerProxy/TMinerProxy/releases/download/1.0.1/TMinerProxy_v1.0.1_linux_amd64.tar.gz -O /root/TMinerProxy_v1.0.1_linux_amd64.tar.gz
+    tar -zxvf /root/TMinerProxy_v1.0.1_linux_amd64.tar.gz -C /root/t_miner_proxy
     chmod 777 /root/t_miner_proxy/TMinerProxy
 
     screen -dmS t_miner_proxy
@@ -40,7 +40,7 @@ install(){
     screen -r t_miner_proxy -p 0 -X stuff $'\n'
 
     sleep 2s
-    echo "TMinerProxy V1.2.0已经安装到/root/t_miner_proxy"
+    echo "TMinerProxy V1.0.1已经安装到/root/t_miner_proxy"
     cat /root/t_miner_proxy/pwd.txt
     echo ""
     echo "您可以使用指令screen -r t_miner_proxy查看程式端口和密码"
@@ -62,14 +62,14 @@ uninstall(){
 
 
 update(){
-    wget https://github.com/TMinerProxy/TMinerProxy/releases/download/1.2.0/TMinerProxy_v1.2.0_linux_amd64.tar.gz -O /root/TMinerProxy_v1.2.0_linux_amd64.tar.gz
+    wget https://github.com/TMinerProxy/TMinerProxy/releases/download/1.0.1/TMinerProxy_v1.0.1_linux_amd64.tar.gz -O /root/TMinerProxy_v1.0.1_linux_amd64.tar.gz
 
     if screen -list | grep -q "t_miner_proxy"; then
         screen -X -S t_miner_proxy quit
     fi
     rm -rf /root/t_miner_proxy/TMinerProxy
 
-    tar -zxvf /root/TMinerProxy_v1.2.0_linux_amd64.tar.gz -C /root/t_miner_proxy
+    tar -zxvf /root/TMinerProxy_v1.0.1_linux_amd64.tar.gz -C /root/t_miner_proxy
     chmod 777 /root/t_miner_proxy/TMinerProxy
 
     screen -dmS t_miner_proxy
@@ -80,7 +80,7 @@ update(){
     screen -r t_miner_proxy -p 0 -X stuff $'\n'
 
     sleep 2s
-    echo "TMinerProxy 已经更新至V1.2.0版本并启动"
+    echo "TMinerProxy 已经更新至V1.0.1版本并启动"
     cat /root/t_miner_proxy/pwd.txt
     echo ""
     echo "您可以使用指令screen -r t_miner_proxy查看程式输出"
@@ -151,7 +151,7 @@ check_limit(){
 
 echo "======================================================="
 echo "TMinerProxy 一键脚本，脚本默认安装到/root/t_miner_proxy"
-echo "                                   脚本版本：V1.2.0"
+echo "                                   脚本版本：V1.0.1"
 echo "  1、安  装"
 echo "  2、卸  载"
 echo "  3、更  新"
